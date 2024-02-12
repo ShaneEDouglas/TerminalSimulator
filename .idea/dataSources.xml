@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db-derby-10.17.1.0-bin" uuid="bd416a45-ce92-4a2b-be86-1e9f8e955ccf">
+    <data-source source="LOCAL" name="Books" uuid="bd416a45-ce92-4a2b-be86-1e9f8e955ccf">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>book and library database</remarks>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/../../../../Program Files/Java/jdk-21;create=true</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Apache Derby (Embedded)" uuid="d24e5276-4cd2-4012-a69a-7d08fd1de21d">
       <driver-ref>derby.embedded</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
-      <jdbc-url>jdbc:derby:$PROJECT_DIR$/../../../../Program Files/Java/jdk-21/db-derby-10.17.1.0-bin;create=true</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
       </jdbc-additional-properties>

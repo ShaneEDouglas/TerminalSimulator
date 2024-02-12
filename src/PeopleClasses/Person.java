@@ -1,2 +1,38 @@
-package PeopleClasses;public class Person {
+package PeopleClasses;
+
+public abstract class Person {
+    protected  String name;
+    protected  int id;
+    protected String gender;
+    protected  boolean IsPassenger;
+
+
+    public Person(String name, String gender){
+
+        this.name = name;
+        this.gender = gender;
+    }
+
+    ////////////////////////////////////////////////////////
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+
+
+
+
 }
