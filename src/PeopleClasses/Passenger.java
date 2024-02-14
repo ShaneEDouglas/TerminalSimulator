@@ -5,18 +5,17 @@ import TerminalObjects.SelfCheckIn;
 public class Passenger extends Person {
 
     protected int Passengerid;
-    protected int NumOfFlights;
+    protected String FlightNumber;
     protected int Luggage;
 
 
     protected boolean isCheckedIn;
 
 
-
-    public Passenger(String name, String gender) {
+    public Passenger(String name, String gender,String FlightNumber, int Luggage) {
         super(name, gender);
         this.IsPassenger = true;
-        this.NumOfFlights = NumOfFlights;
+        this.FlightNumber = FlightNumber;
         this.Luggage = Luggage;
         this.isCheckedIn = false;
 
@@ -58,12 +57,12 @@ public class Passenger extends Person {
         Luggage = luggage;
     }
 
-    public int getNumOfFlights() {
-        return NumOfFlights;
+    public String getFlightNumber() {
+        return FlightNumber;
     }
 
-    public void setNumOfFlights(int numOfFlights) {
-        NumOfFlights = numOfFlights;
+    public void setFlightNumber(String flightNumber) {
+        FlightNumber = flightNumber;
     }
 
     public void setCheckedIn(boolean checkedIn) {
