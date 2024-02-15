@@ -1,7 +1,6 @@
-package Rooms;
+package AirportRooms;
 
 import PeopleClasses.Passenger;
-import Rooms.Room;
 import TerminalObjects.SelfCheckIn;
 
 import java.util.ArrayList;

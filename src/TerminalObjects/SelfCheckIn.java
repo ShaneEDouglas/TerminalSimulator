@@ -7,15 +7,15 @@ import java.util.Queue;
 
 public class SelfCheckIn {
 
-    protected int kioskID;
+    protected String kioskID;
     protected boolean isOperational;
     protected Queue<Passenger>  PassengerQueue;
 
-    public int getKioskID() {
+    public String getKioskID() {
         return kioskID;
     }
 
-    public void setKioskID(int kioskID) {
+    public void setKioskID(String kioskID) {
         this.kioskID = kioskID;
     }
 
@@ -25,7 +25,7 @@ public class SelfCheckIn {
         isOperational = operational;
     }
 
-    public SelfCheckIn(String s){
+    public SelfCheckIn(String kioskID){
         this.kioskID = kioskID;
         this.isOperational = true;
         this.PassengerQueue = new LinkedList<>();
