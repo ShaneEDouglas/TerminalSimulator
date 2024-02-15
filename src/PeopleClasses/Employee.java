@@ -1,6 +1,6 @@
 package PeopleClasses;
 
-public class Employee extends Person {
+public abstract class Employee extends Person {
 
     protected String EmployeeID;
     protected String JobTitle;

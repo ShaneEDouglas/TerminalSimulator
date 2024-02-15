@@ -1,4 +1,4 @@
-package Rooms;
+package AirportRooms;
 
 import PeopleClasses.Passenger;
 import PeopleClasses.Person;

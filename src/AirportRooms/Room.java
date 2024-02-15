@@ -1,6 +1,5 @@
-package Rooms;
+package AirportRooms;
 
-import PeopleClasses.Passenger;
 import PeopleClasses.Person;
 import java.util.List;
 import java.util.ArrayList;

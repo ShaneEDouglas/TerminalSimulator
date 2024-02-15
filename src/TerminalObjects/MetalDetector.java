@@ -22,7 +22,7 @@ public class MetalDetector {
         boolean hasMetal = random.nextInt(10) == 0;
 
         if (hasMetal) {
-            System.out.println(passenger.getName() + " has " + passenger.getLuggage() + " bags and has metal. Step away form the line");
+            System.out.println(passenger.getName() + " has " + passenger.getLuggage() + " bags and has metal. Step away from the line");
             return true;
         } else {
             System.out.println(passenger.getName() + " has " + passenger.getLuggage() + " bags and does not have metal. Move to the boarding room");
